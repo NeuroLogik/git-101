@@ -7,3 +7,4 @@ def approximate_size(size):
         size /= multiple
         if size < multiple:
             return f'{size} {suffix}'
+    raise ValueError('number too large')    # un numero troppo grande non torna mai (perchè l'if non diventa mai true)
