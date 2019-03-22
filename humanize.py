@@ -1,6 +1,6 @@
 SUFFIXES = ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB']
 
-def approximate_size(size= "matteo è gay"):
+def approximate_size(size= 100):
     """ Convert a file size to human-readable form.
     Keyword arguments:
     size -- file size in bytes
